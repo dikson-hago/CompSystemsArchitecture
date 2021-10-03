@@ -35,23 +35,23 @@
         };
 
     3) rectangle (Всего 17 байт)
-        int highLeftX - 4 байтах[0]
-        int highLeftY - 4 байтах[4]
-        int lowRightX - 4 байтах[8]
-        int lowRightY - 4 байтах[12]
+        int highLeftX - 4 байта[0]
+        int highLeftY - 4 байта[4]
+        int lowRightX - 4 байта[8]
+        int lowRightY - 4 байта[12]
         bool isValidate - 1 байт[16]
 
     4) triangle (Всего 24 байт)
-        int first_x - 4 байтах[0]
-        int first_y - 4 байтах[4]
-        int second_x - 4 байтах[8]
-        int second_y - 4 байтах[12]
-        int third_x - 4 байтах[16]
-        int third_y - 4 байтах[20]
+        int first_x - 4 байта[0]
+        int first_y - 4 байта[4]
+        int second_x - 4 байта[8]
+        int second_y - 4 байта[12]
+        int third_x - 4 байта[16]
+        int third_y - 4 байта[20]
 
     5) circle (Всего 16 байт)
-        int center_x - 4 байтах[0]
-        int center_y - 4 байтах[4]
+        int center_x - 4 байта[0]
+        int center_y - 4 байта[4]
         double radius - 8 байт[8]
 
 
