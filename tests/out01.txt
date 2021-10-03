@@ -1,0 +1,6 @@
+Filled container:
+Container contains 4 elements.
+0: It is VIOLET Circle: center_x = -1, center_y = -1, radius = 1. Perimeter = 6.28319
+1: It is RED Circle: center_x = 7, center_y = 4, radius = 2. Perimeter = 12.5664
+2: It is BLUE Triangle: firstX = 4, firstY = 2, secondx = 2, secondY = 1, thirdX = -4, thirdY = 5. Perimeter = 17.9912
+3: It is VIOLET Rectangle: highLeftX = -9, highLeftY = -1, lowRightX = -4, lowRightY = -6. Perimeter = 20

@@ -1,0 +1,3 @@
+/home/dikson/Documents/study/CompArchitecture/Task1/build/CMakeFiles/rebuild_cache.dir
+/home/dikson/Documents/study/CompArchitecture/Task1/build/CMakeFiles/edit_cache.dir
+/home/dikson/Documents/study/CompArchitecture/Task1/build/CMakeFiles/task.dir

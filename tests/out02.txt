@@ -1,0 +1,136 @@
+Filled container:
+Container contains 100 elements.
+0: It is YELLOW Rectangle: highLeftX = 11, highLeftY = 4, lowRightX = 11, lowRightY = 2. Perimeter = 4
+Earlier rectangle was not valid 
+1: It is VIOLET Circle: center_x = 9, center_y = 13, radius = 1. Perimeter = 6.28319
+2: It is ORANGE Circle: center_x = 20, center_y = 5, radius = 1. Perimeter = 6.28319
+3: It is RED Rectangle: highLeftX = 17, highLeftY = 5, lowRightX = 15, lowRightY = 7. Perimeter = 8
+Earlier rectangle was not valid 
+4: It is RED Rectangle: highLeftX = 7, highLeftY = 16, lowRightX = 8, lowRightY = 13. Perimeter = 8
+Earlier rectangle was not valid 
+5: It is GREEN Rectangle: highLeftX = 3, highLeftY = 3, lowRightX = 4, lowRightY = 7. Perimeter = 10
+Earlier rectangle was not valid 
+6: It is INDIGO Rectangle: highLeftX = 10, highLeftY = 9, lowRightX = 12, lowRightY = 6. Perimeter = 10
+Earlier rectangle was not valid 
+7: It is BLUE Triangle: firstX = 2, firstY = 10, secondx = 5, secondY = 6, thirdX = 5, thirdY = 7. Perimeter = 10.2426
+8: It is GREEN Triangle: firstX = 13, firstY = 6, secondx = 10, secondY = 10, thirdX = 9, thirdY = 8. Perimeter = 11.7082
+9: It is RED Rectangle: highLeftX = 16, highLeftY = 15, lowRightX = 20, lowRightY = 13. Perimeter = 12
+Earlier rectangle was not valid 
+10: It is INDIGO Rectangle: highLeftX = 16, highLeftY = 7, lowRightX = 13, lowRightY = 3. Perimeter = 14
+Earlier rectangle was not valid 
+11: It is YELLOW Rectangle: highLeftX = 19, highLeftY = 2, lowRightX = 14, lowRightY = 4. Perimeter = 14
+Earlier rectangle was not valid 
+12: It is ORANGE Rectangle: highLeftX = 13, highLeftY = 13, lowRightX = 13, lowRightY = 20. Perimeter = 14
+Earlier rectangle was not valid 
+13: It is YELLOW Rectangle: highLeftX = 13, highLeftY = 11, lowRightX = 12, lowRightY = 5. Perimeter = 14
+Earlier rectangle was not valid 
+14: It is BLUE Rectangle: highLeftX = 3, highLeftY = 8, lowRightX = 6, lowRightY = 13. Perimeter = 16
+Earlier rectangle was not valid 
+15: It is ORANGE Rectangle: highLeftX = 11, highLeftY = 15, lowRightX = 3, lowRightY = 14. Perimeter = 18
+Earlier rectangle was not valid 
+16: It is RED Rectangle: highLeftX = 18, highLeftY = 10, lowRightX = 20, lowRightY = 3. Perimeter = 18
+Earlier rectangle was not valid 
+17: It is RED Rectangle: highLeftX = 3, highLeftY = 8, lowRightX = 8, lowRightY = 4. Perimeter = 18
+Earlier rectangle was not valid 
+18: It is INDIGO Triangle: firstX = 11, firstY = 3, secondx = 13, secondY = 6, thirdX = 7, thirdY = 10. Perimeter = 18.8789
+19: It is ORANGE Triangle: firstX = 13, firstY = 5, secondx = 8, secondY = 2, thirdX = 6, thirdY = 8. Perimeter = 19.7713
+20: It is RED Rectangle: highLeftX = 11, highLeftY = 17, lowRightX = 9, lowRightY = 9. Perimeter = 20
+Earlier rectangle was not valid 
+21: It is BLUE Rectangle: highLeftX = 7, highLeftY = 10, lowRightX = 12, lowRightY = 5. Perimeter = 20
+Earlier rectangle was not valid 
+22: It is INDIGO Rectangle: highLeftX = 13, highLeftY = 7, lowRightX = 12, lowRightY = 16. Perimeter = 20
+Earlier rectangle was not valid 
+23: It is INDIGO Triangle: firstX = 14, firstY = 12, secondx = 8, secondY = 16, thirdX = 16, thirdY = 10. Perimeter = 20.0395
+24: It is INDIGO Triangle: firstX = 19, firstY = 8, secondx = 14, secondY = 2, thirdX = 16, thirdY = 11. Perimeter = 21.2724
+25: It is BLUE Rectangle: highLeftX = 12, highLeftY = 19, lowRightX = 10, lowRightY = 10. Perimeter = 22
+Earlier rectangle was not valid 
+26: It is RED Rectangle: highLeftX = 5, highLeftY = 14, lowRightX = 13, lowRightY = 17. Perimeter = 22
+Earlier rectangle was not valid 
+27: It is RED Rectangle: highLeftX = 4, highLeftY = 17, lowRightX = 11, lowRightY = 13. Perimeter = 22
+Earlier rectangle was not valid 
+28: It is YELLOW Rectangle: highLeftX = 1, highLeftY = 15, lowRightX = 11, lowRightY = 14. Perimeter = 22
+Earlier rectangle was not valid 
+29: It is GREEN Rectangle: highLeftX = 3, highLeftY = 5, lowRightX = 10, lowRightY = 9. Perimeter = 22
+Earlier rectangle was not valid 
+30: It is RED Rectangle: highLeftX = 8, highLeftY = 13, lowRightX = 16, lowRightY = 10. Perimeter = 22
+Earlier rectangle was not valid 
+31: It is ORANGE Triangle: firstX = 15, firstY = 10, secondx = 11, secondY = 1, thirdX = 8, thirdY = 3. Perimeter = 23.3539
+32: It is ORANGE Rectangle: highLeftX = 12, highLeftY = 20, lowRightX = 12, lowRightY = 8. Perimeter = 24
+Earlier rectangle was not valid 
+33: It is GREEN Rectangle: highLeftX = 14, highLeftY = 3, lowRightX = 15, lowRightY = 14. Perimeter = 24
+Earlier rectangle was not valid 
+34: It is GREEN Triangle: firstX = 4, firstY = 4, secondx = 15, secondY = 1, thirdX = 4, thirdY = 5. Perimeter = 24.1065
+35: It is BLUE Triangle: firstX = 17, firstY = 9, secondx = 5, secondY = 10, thirdX = 11, thirdY = 9. Perimeter = 24.1244
+36: It is INDIGO Triangle: firstX = 1, firstY = 11, secondx = 8, secondY = 1, thirdX = 6, thirdY = 5. Perimeter = 24.4889
+37: It is GREEN Triangle: firstX = 13, firstY = 11, secondx = 17, secondY = 1, thirdX = 16, thirdY = 12. Perimeter = 24.978
+38: It is RED Circle: center_x = 19, center_y = 20, radius = 4. Perimeter = 25.1327
+39: It is INDIGO Circle: center_x = 8, center_y = 11, radius = 4. Perimeter = 25.1327
+40: It is GREEN Circle: center_x = 3, center_y = 8, radius = 4. Perimeter = 25.1327
+41: It is ORANGE Triangle: firstX = 8, firstY = 11, secondx = 19, secondY = 15, thirdX = 9, thirdY = 15. Perimeter = 25.8278
+42: It is ORANGE Rectangle: highLeftX = 6, highLeftY = 5, lowRightX = 13, lowRightY = 11. Perimeter = 26
+Earlier rectangle was not valid 
+43: It is BLUE Triangle: firstX = 17, firstY = 12, secondx = 14, secondY = 3, thirdX = 20, thirdY = 2. Perimeter = 26.0099
+44: It is INDIGO Triangle: firstX = 9, firstY = 8, secondx = 7, secondY = 5, thirdX = 12, thirdY = 17. Perimeter = 26.0924
+45: It is GREEN Triangle: firstX = 12, firstY = 11, secondx = 4, secondY = 13, thirdX = 1, thirdY = 7. Perimeter = 26.6591
+46: It is VIOLET Triangle: firstX = 13, firstY = 11, secondx = 6, secondY = 7, thirdX = 18, thirdY = 13. Perimeter = 26.8638
+47: It is YELLOW Triangle: firstX = 13, firstY = 9, secondx = 3, secondY = 10, thirdX = 16, thirdY = 7. Perimeter = 26.9971
+48: It is ORANGE Rectangle: highLeftX = 7, highLeftY = 17, lowRightX = 20, lowRightY = 16. Perimeter = 28
+Earlier rectangle was not valid 
+49: It is YELLOW Rectangle: highLeftX = 1, highLeftY = 20, lowRightX = 5, lowRightY = 10. Perimeter = 28
+Earlier rectangle was not valid 
+50: It is YELLOW Rectangle: highLeftX = 16, highLeftY = 1, lowRightX = 10, lowRightY = 9. Perimeter = 28
+Earlier rectangle was not valid 
+51: It is GREEN Triangle: firstX = 9, firstY = 20, secondx = 11, secondY = 12, thirdX = 19, thirdY = 14. Perimeter = 28.1543
+52: It is VIOLET Triangle: firstX = 8, firstY = 5, secondx = 7, secondY = 18, thirdX = 5, thirdY = 6. Perimeter = 28.3662
+53: It is RED Triangle: firstX = 13, firstY = 13, secondx = 6, secondY = 11, thirdX = 19, thirdY = 17. Perimeter = 28.809
+54: It is YELLOW Rectangle: highLeftX = 6, highLeftY = 8, lowRightX = 12, lowRightY = 17. Perimeter = 30
+Earlier rectangle was not valid 
+55: It is ORANGE Triangle: firstX = 3, firstY = 19, secondx = 6, secondY = 14, thirdX = 3, thirdY = 4. Perimeter = 31.2713
+56: It is VIOLET Triangle: firstX = 3, firstY = 10, secondx = 9, secondY = 9, thirdX = 14, thirdY = 19. Perimeter = 31.4758
+57: It is YELLOW Triangle: firstX = 5, firstY = 13, secondx = 19, secondY = 7, thirdX = 14, thirdY = 6. Perimeter = 31.7323
+58: It is YELLOW Triangle: firstX = 3, firstY = 10, secondx = 12, secondY = 19, thirdX = 15, thirdY = 13. Perimeter = 31.8054
+59: It is YELLOW Rectangle: highLeftX = 12, highLeftY = 16, lowRightX = 10, lowRightY = 2. Perimeter = 32
+Earlier rectangle was not valid 
+60: It is VIOLET Triangle: firstX = 6, firstY = 16, secondx = 16, secondY = 11, thirdX = 7, thirdY = 5. Perimeter = 33.0424
+61: It is BLUE Triangle: firstX = 3, firstY = 2, secondx = 16, secondY = 2, thirdX = 19, thirdY = 5. Perimeter = 33.5215
+62: It is BLUE Triangle: firstX = 13, firstY = 11, secondx = 2, secondY = 13, thirdX = 9, thirdY = 2. Perimeter = 34.0676
+63: It is YELLOW Triangle: firstX = 8, firstY = 14, secondx = 5, secondY = 7, thirdX = 18, thirdY = 17. Perimeter = 34.4573
+64: It is YELLOW Triangle: firstX = 5, firstY = 4, secondx = 3, secondY = 18, thirdX = 1, thirdY = 2. Perimeter = 34.7388
+65: It is ORANGE Triangle: firstX = 20, firstY = 13, secondx = 19, secondY = 18, thirdX = 8, thirdY = 6. Perimeter = 35.2703
+66: It is ORANGE Rectangle: highLeftX = 16, highLeftY = 13, lowRightX = 10, lowRightY = 1. Perimeter = 36
+Earlier rectangle was not valid 
+67: It is BLUE Triangle: firstX = 5, firstY = 3, secondx = 2, secondY = 9, thirdX = 16, thirdY = 13. Perimeter = 36.1345
+68: It is ORANGE Triangle: firstX = 9, firstY = 18, secondx = 19, secondY = 15, thirdX = 16, thirdY = 4. Perimeter = 37.4945
+69: It is YELLOW Circle: center_x = 4, center_y = 2, radius = 6. Perimeter = 37.6991
+70: It is VIOLET Triangle: firstX = 2, firstY = 7, secondx = 19, secondY = 7, thirdX = 8, thirdY = 13. Perimeter = 38.0152
+71: It is YELLOW Triangle: firstX = 14, firstY = 2, secondx = 2, secondY = 15, thirdX = 6, thirdY = 17. Perimeter = 39.1639
+72: It is VIOLET Rectangle: highLeftX = 20, highLeftY = 2, lowRightX = 9, lowRightY = 11. Perimeter = 40
+Earlier rectangle was not valid 
+73: It is INDIGO Triangle: firstX = 10, firstY = 17, secondx = 18, secondY = 18, thirdX = 8, thirdY = 3. Perimeter = 40.2321
+74: It is GREEN Triangle: firstX = 19, firstY = 12, secondx = 5, secondY = 7, thirdX = 2, thirdY = 2. Perimeter = 40.4201
+75: It is YELLOW Triangle: firstX = 7, firstY = 13, secondx = 16, secondY = 1, thirdX = 17, thirdY = 16. Perimeter = 40.4736
+76: It is VIOLET Triangle: firstX = 17, firstY = 17, secondx = 13, secondY = 9, thirdX = 1, thirdY = 5. Perimeter = 41.5934
+77: It is VIOLET Rectangle: highLeftX = 11, highLeftY = 20, lowRightX = 16, lowRightY = 4. Perimeter = 42
+Earlier rectangle was not valid 
+78: It is YELLOW Triangle: firstX = 8, firstY = 11, secondx = 19, secondY = 17, thirdX = 4, thirdY = 2. Perimeter = 43.592
+79: It is INDIGO Circle: center_x = 7, center_y = 1, radius = 7. Perimeter = 43.9823
+80: It is VIOLET Circle: center_x = 16, center_y = 14, radius = 7. Perimeter = 43.9823
+81: It is RED Circle: center_x = 4, center_y = 20, radius = 7. Perimeter = 43.9823
+82: It is ORANGE Circle: center_x = 4, center_y = 13, radius = 8. Perimeter = 50.2655
+83: It is YELLOW Circle: center_x = 12, center_y = 11, radius = 8. Perimeter = 50.2655
+84: It is ORANGE Circle: center_x = 3, center_y = 16, radius = 8. Perimeter = 50.2655
+85: It is INDIGO Circle: center_x = 7, center_y = 5, radius = 8. Perimeter = 50.2655
+86: It is RED Triangle: firstX = 18, firstY = 5, secondx = 1, secondY = 10, thirdX = 19, thirdY = 20. Perimeter = 53.3446
+87: It is RED Circle: center_x = 10, center_y = 11, radius = 9. Perimeter = 56.5487
+88: It is ORANGE Circle: center_x = 13, center_y = 17, radius = 9. Perimeter = 56.5487
+89: It is GREEN Circle: center_x = 12, center_y = 15, radius = 10. Perimeter = 62.8319
+90: It is VIOLET Circle: center_x = 11, center_y = 7, radius = 10. Perimeter = 62.8319
+91: It is GREEN Circle: center_x = 19, center_y = 11, radius = 11. Perimeter = 69.115
+92: It is RED Circle: center_x = 16, center_y = 6, radius = 12. Perimeter = 75.3982
+93: It is INDIGO Circle: center_x = 14, center_y = 17, radius = 12. Perimeter = 75.3982
+94: It is BLUE Circle: center_x = 10, center_y = 7, radius = 13. Perimeter = 81.6814
+95: It is GREEN Circle: center_x = 19, center_y = 1, radius = 13. Perimeter = 81.6814
+96: It is YELLOW Circle: center_x = 20, center_y = 16, radius = 16. Perimeter = 100.531
+97: It is ORANGE Circle: center_x = 18, center_y = 19, radius = 18. Perimeter = 113.097
+98: It is GREEN Circle: center_x = 9, center_y = 14, radius = 19. Perimeter = 119.381
+99: It is YELLOW Circle: center_x = 16, center_y = 15, radius = 19. Perimeter = 119.381

@@ -1,0 +1,8 @@
+Filled container:
+Container contains 6 elements.
+0: It is RED Triangle: firstX = -4, firstY = 5, secondx = -4, secondY = 2, thirdX = -2, thirdY = 2. Perimeter = 8.60555
+1: It is YELLOW Triangle: firstX = 1, firstY = 2, secondx = 3, secondY = 4, thirdX = 5, thirdY = 6. Perimeter = 11.3137
+2: It is ORANGE Triangle: firstX = 1, firstY = 1, secondx = 1, secondY = 2, thirdX = 12, thirdY = 12. Perimeter = 31.4224
+3: It is RED Triangle: firstX = -10, firstY = 20, secondx = 30, secondY = 121, thirdX = 12, thirdY = 12. Perimeter = 242.518
+4: It is RED Triangle: firstX = 100, firstY = 200, secondx = -30, secondY = 200, thirdX = 20, thirdY = 11. Perimeter = 530.736
+5: It is RED Triangle: firstX = 12, firstY = 123, secondx = 781, secondY = 13, thirdX = 12, thirdY = 232. Perimeter = 1685.4

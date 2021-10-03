@@ -1,0 +1,7 @@
+Filled container:
+Container contains 5 elements.
+0: It is YELLOW Circle: center_x = 1, center_y = 1, radius = 1. Perimeter = 6.28319
+1: It is RED Circle: center_x = 7, center_y = 4, radius = 2. Perimeter = 12.5664
+2: It is INDIGO Circle: center_x = 120, center_y = 1010, radius = 10. Perimeter = 62.8319
+3: It is ORANGE Circle: center_x = 10, center_y = 12, radius = 13. Perimeter = 81.6814
+4: It is RED Circle: center_x = 0, center_y = 0, radius = 100. Perimeter = 628.319
