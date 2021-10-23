@@ -2,28 +2,40 @@
 #define __triangle__
 
 #include <fstream>
-#include <iostream>
+#include <cmath>
 
-using namespace std;
+#include "rnd.h"
+#include "shape.h"
 
-# include "rnd.h"
+class Triangle : public Shape {
+private:
+    int first_x_, first_y_;
+    int second_x_, second_y_;
+    int third_x_, third_y_;
 
-struct triangle {
-    int first_x, first_y;
-    int second_x, second_y;
-    int third_x, third_y;
+    // get distanse between two coordinates of triangle
+    double GetDistanseBetweenCoordinates(int x1, 
+        int y1, int x2, int y2);
+
+public:
+
+    // constructor
+    Triangle();
+
+    // destructor
+    ~Triangle();
+
+    // input data for triangle
+    void Input(ifstream &ifst) override;
+
+    // get random data for triangle
+    void InputRandom() override;
+
+    // output data of triangle
+    void Output(ofstream &ofst) override;
+
+    // get perimeter of triangle
+    double Perimeter() override;
 };
 
-// input data for triangle
-void Input(triangle &t, ifstream &ifst);
-
-// get random data for triangle
-void InputRandom(triangle &e);
-
-// output data of triangle
-void Output(triangle &t, ofstream &ofst);
-
-// get perimeter of triangle
-double Perimeter(triangle &t);
-
-#endif 
+#endif

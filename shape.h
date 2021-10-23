@@ -1,43 +1,36 @@
 #ifndef __shape__
 #define __shape__
 
-#include "rectangle.h"
-#include "triangle.h"
-#include "circle.h"
+#include <fstream>
+#include <iostream>
 
-struct shape {
-    enum key {RECTANGLE, TRIANGLE, CIRCLE};
+using namespace std;
 
-    enum color {RED, ORANGE, YELLOW, GREEN, BLUE, 
-    INDIGO, VIOLET};
+#include "enums.h"
 
-    key shape_key; 
+class Shape {
+private:
+    ShapeName shape_name_; 
+    ColorName shape_color_;
 
-    color shape_color;
+public:
 
-    union {
-        rectangle r;
-        triangle t;
-        circle c;
-    };
+    // input data for shape
+    virtual void Input(ifstream &ifst) {};
+
+    // get random data for shape
+    virtual void InputRandom() {};
+
+    // output data of shape
+    virtual void Output(ofstream &ofst) {};
+
+    // get perimeter of shape
+    virtual double Perimeter() { return 0; };
+
+    // set color of shape
+    bool SetColor(int &color_key);
+
+    // output color of shape
+    void OutColor(ofstream &ofst);
 };
-
-// input data for shape
-bool Input(shape &s, ifstream &ifdt);
-
-// set color of shape
-bool SetColor(shape &s, int &color_key);
-
-// get random data for shape
-bool InputRandom(shape &s);
-
-// output data of shape
-void Output(shape &s, ofstream &ofst);
-
-// output color of shape
-void OutColor(shape& s, ofstream &ofst);
-
-// get perimeter of shape
-double Perimeter(shape &s);
-
 #endif

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dikson/Documents/study/CompArchitecture/Task1
+CMAKE_SOURCE_DIR = /home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dikson/Documents/study/CompArchitecture/Task1/build
+CMAKE_BINARY_DIR = /home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/task.dir/depend.make
@@ -59,81 +59,81 @@ include CMakeFiles/task.dir/flags.make
 
 CMakeFiles/task.dir/triangle.cpp.o: CMakeFiles/task.dir/flags.make
 CMakeFiles/task.dir/triangle.cpp.o: ../triangle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dikson/Documents/study/CompArchitecture/Task1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/task.dir/triangle.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task.dir/triangle.cpp.o -c /home/dikson/Documents/study/CompArchitecture/Task1/triangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/task.dir/triangle.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task.dir/triangle.cpp.o -c /home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/triangle.cpp
 
 CMakeFiles/task.dir/triangle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task.dir/triangle.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dikson/Documents/study/CompArchitecture/Task1/triangle.cpp > CMakeFiles/task.dir/triangle.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/triangle.cpp > CMakeFiles/task.dir/triangle.cpp.i
 
 CMakeFiles/task.dir/triangle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task.dir/triangle.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dikson/Documents/study/CompArchitecture/Task1/triangle.cpp -o CMakeFiles/task.dir/triangle.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/triangle.cpp -o CMakeFiles/task.dir/triangle.cpp.s
 
 CMakeFiles/task.dir/rectangle.cpp.o: CMakeFiles/task.dir/flags.make
 CMakeFiles/task.dir/rectangle.cpp.o: ../rectangle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dikson/Documents/study/CompArchitecture/Task1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/task.dir/rectangle.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task.dir/rectangle.cpp.o -c /home/dikson/Documents/study/CompArchitecture/Task1/rectangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/task.dir/rectangle.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task.dir/rectangle.cpp.o -c /home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/rectangle.cpp
 
 CMakeFiles/task.dir/rectangle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task.dir/rectangle.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dikson/Documents/study/CompArchitecture/Task1/rectangle.cpp > CMakeFiles/task.dir/rectangle.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/rectangle.cpp > CMakeFiles/task.dir/rectangle.cpp.i
 
 CMakeFiles/task.dir/rectangle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task.dir/rectangle.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dikson/Documents/study/CompArchitecture/Task1/rectangle.cpp -o CMakeFiles/task.dir/rectangle.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/rectangle.cpp -o CMakeFiles/task.dir/rectangle.cpp.s
 
 CMakeFiles/task.dir/shape.cpp.o: CMakeFiles/task.dir/flags.make
 CMakeFiles/task.dir/shape.cpp.o: ../shape.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dikson/Documents/study/CompArchitecture/Task1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/task.dir/shape.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task.dir/shape.cpp.o -c /home/dikson/Documents/study/CompArchitecture/Task1/shape.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/task.dir/shape.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task.dir/shape.cpp.o -c /home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/shape.cpp
 
 CMakeFiles/task.dir/shape.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task.dir/shape.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dikson/Documents/study/CompArchitecture/Task1/shape.cpp > CMakeFiles/task.dir/shape.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/shape.cpp > CMakeFiles/task.dir/shape.cpp.i
 
 CMakeFiles/task.dir/shape.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task.dir/shape.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dikson/Documents/study/CompArchitecture/Task1/shape.cpp -o CMakeFiles/task.dir/shape.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/shape.cpp -o CMakeFiles/task.dir/shape.cpp.s
 
 CMakeFiles/task.dir/circle.cpp.o: CMakeFiles/task.dir/flags.make
 CMakeFiles/task.dir/circle.cpp.o: ../circle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dikson/Documents/study/CompArchitecture/Task1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/task.dir/circle.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task.dir/circle.cpp.o -c /home/dikson/Documents/study/CompArchitecture/Task1/circle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/task.dir/circle.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task.dir/circle.cpp.o -c /home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/circle.cpp
 
 CMakeFiles/task.dir/circle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task.dir/circle.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dikson/Documents/study/CompArchitecture/Task1/circle.cpp > CMakeFiles/task.dir/circle.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/circle.cpp > CMakeFiles/task.dir/circle.cpp.i
 
 CMakeFiles/task.dir/circle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task.dir/circle.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dikson/Documents/study/CompArchitecture/Task1/circle.cpp -o CMakeFiles/task.dir/circle.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/circle.cpp -o CMakeFiles/task.dir/circle.cpp.s
 
 CMakeFiles/task.dir/container.cpp.o: CMakeFiles/task.dir/flags.make
 CMakeFiles/task.dir/container.cpp.o: ../container.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dikson/Documents/study/CompArchitecture/Task1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/task.dir/container.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task.dir/container.cpp.o -c /home/dikson/Documents/study/CompArchitecture/Task1/container.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/task.dir/container.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task.dir/container.cpp.o -c /home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/container.cpp
 
 CMakeFiles/task.dir/container.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task.dir/container.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dikson/Documents/study/CompArchitecture/Task1/container.cpp > CMakeFiles/task.dir/container.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/container.cpp > CMakeFiles/task.dir/container.cpp.i
 
 CMakeFiles/task.dir/container.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task.dir/container.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dikson/Documents/study/CompArchitecture/Task1/container.cpp -o CMakeFiles/task.dir/container.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/container.cpp -o CMakeFiles/task.dir/container.cpp.s
 
 CMakeFiles/task.dir/main.cpp.o: CMakeFiles/task.dir/flags.make
 CMakeFiles/task.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dikson/Documents/study/CompArchitecture/Task1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/task.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task.dir/main.cpp.o -c /home/dikson/Documents/study/CompArchitecture/Task1/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/task.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task.dir/main.cpp.o -c /home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/main.cpp
 
 CMakeFiles/task.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dikson/Documents/study/CompArchitecture/Task1/main.cpp > CMakeFiles/task.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/main.cpp > CMakeFiles/task.dir/main.cpp.i
 
 CMakeFiles/task.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dikson/Documents/study/CompArchitecture/Task1/main.cpp -o CMakeFiles/task.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/main.cpp -o CMakeFiles/task.dir/main.cpp.s
 
 # Object files for target task
 task_OBJECTS = \
@@ -155,7 +155,7 @@ task_EXTERNAL_OBJECTS =
 ../bin/task: CMakeFiles/task.dir/main.cpp.o
 ../bin/task: CMakeFiles/task.dir/build.make
 ../bin/task: CMakeFiles/task.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dikson/Documents/study/CompArchitecture/Task1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../bin/task"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../bin/task"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/task.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -168,6 +168,6 @@ CMakeFiles/task.dir/clean:
 .PHONY : CMakeFiles/task.dir/clean
 
 CMakeFiles/task.dir/depend:
-	cd /home/dikson/Documents/study/CompArchitecture/Task1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dikson/Documents/study/CompArchitecture/Task1 /home/dikson/Documents/study/CompArchitecture/Task1 /home/dikson/Documents/study/CompArchitecture/Task1/build /home/dikson/Documents/study/CompArchitecture/Task1/build /home/dikson/Documents/study/CompArchitecture/Task1/build/CMakeFiles/task.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture /home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture /home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/build /home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/build /home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/build/CMakeFiles/task.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/task.dir/depend
 

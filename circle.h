@@ -2,25 +2,34 @@
 #define __circle__
 
 #include <fstream>
+
 #include "rnd.h"
+#include "shape.h"
 
-using namespace std;
+class Circle : public Shape {
+private:
+    int center_x_, center_y_;
+    double radius_;
+public:
+    // constructor
+    Circle();
 
-struct circle {
-    int center_x, center_y;
-    double radius;
+    // destructor
+    ~Circle();
+
+    // input data for circle
+    void Input(ifstream &ifst) override;
+
+    // get random data for circle
+    void InputRandom() override;
+
+    // output data of circle
+    void Output(ofstream &ofst) override;
+
+    // get perimeter of circle
+    double Perimeter() override;
 };
 
-// input data for circle
-void Input(circle &c, ifstream &ifst);
 
-// get random data for circle
-void InputRandom(circle &e);
-
-// output data of circle
-void Output(circle &t, ofstream &ofst);
-
-// get perimeter of circle
-double Perimeter(circle &t);
 
 #endif

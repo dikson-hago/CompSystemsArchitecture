@@ -1,50 +1,94 @@
 #include "container.h"
 
-// initialize new container
-void Init(container &c) {
-    c.len = 0;
+// constructor
+Container::Container() {
+    container_length_ = 0;
+}
+
+// destructor
+Container::~Container() {
+    Clear();
 }
 
 // clear container
-void Clear(container &c) {
-    c.len = 0;
+void Container::Clear() {
+    for(int i = 0; i < container_length_; i++) {
+        delete cont_[i];
+    }
+    container_length_ = 0;
+}
+
+// set color and type of shape
+bool Container::SetColorAndType(int shape_key, int color_key) {
+    switch(shape_key) {
+        case 1:
+            cont_[container_length_] = new Rectangle();
+            cont_[container_length_]->SetColor(color_key);
+            break;
+        case 2:
+            cont_[container_length_] = new Triangle();
+            cont_[container_length_]->SetColor(color_key);
+            break;
+        case 3:
+            cont_[container_length_] = new Circle();
+            cont_[container_length_]->SetColor(color_key);
+            break;
+        case 4:
+            return false;
+    }
+    return true;
 }
 
 // input data for container
-void Input(container &c, ifstream &ifst) {
+void Container::Input(ifstream &ifst) {
     while(!ifst.eof()) {
-        if(Input(c.cont[c.len], ifst)) {
-            c.len++;
+        int shape_key, color_key;
+        ifst >> shape_key >> color_key;
+        if(SetColorAndType(shape_key, color_key)) {
+            cont_[container_length_]->Input(ifst);
+            container_length_++;
         }
     }
 }
 
 // get random data for container
-void InputRandom(container &c, int size) {
-    while(c.len < size) {
-        if(InputRandom(c.cont[c.len])) {
-            c.len++;
+void Container::InputRandom(int size) {
+    while(container_length_ < size) {
+        auto shape_key = rand() % 3 + 1;
+        auto color_key = rand() % 7 + 1;
+        SetColorAndType(shape_key, color_key);
+        switch(shape_key) {
+            case 1:
+                shape_key = ShapeName::RECTANGLE;
+                cont_[container_length_]->InputRandom();
+            case 2:
+                shape_key = ShapeName::TRIANGLE;
+                cont_[container_length_]->InputRandom();
+            case 3:
+                shape_key = ShapeName::CIRCLE;
+                cont_[container_length_]->InputRandom();
         }
+        container_length_++;
     }
 }
 
 // output data of container
-void Output(container &c, ofstream &ofst) {
-    ofst << "Container contains " << c.len << " elements." << endl;
-    for(int i = 0; i < c.len; i++) {
+void Container::Output(ofstream &ofst) {
+    ofst << "Container contains " << container_length_ << " elements." << '\n';
+    for(int i = 0; i < container_length_; i++) {
         ofst << i << ": ";
         ofst << "It is ";
-        OutColor(c.cont[i], ofst);
-        Output(c.cont[i], ofst);
+        cont_[i]->OutColor(ofst);
+        cont_[i]->Output(ofst);
     }
 }
 
 // sort container's elements by their perimeter
-void SortContainer(container &c) {
-    for(int i = 0; i < c.len; i++) {
-        for(int j = c.len - 1; j > i; j--) {
-            if(Perimeter(c.cont[j]) < Perimeter(c.cont[j - 1])) {
-                std::swap(c.cont[j], c.cont[j - 1]);
+void Container::SortContainer() {
+    for(int i = 0; i < container_length_; i++) {
+        for(int j = container_length_ - 1; j > i; j--) {
+            if(cont_[j]->Perimeter() < cont_[j - 1]->Perimeter()) {
+                std::swap(cont_[j], cont_[j - 1]);
             }
         }
     }

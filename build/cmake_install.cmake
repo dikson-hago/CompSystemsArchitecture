@@ -1,4 +1,4 @@
-# Install script for directory: /home/dikson/Documents/study/CompArchitecture/Task1
+# Install script for directory: /home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/dikson/Documents/study/CompArchitecture/Task1/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

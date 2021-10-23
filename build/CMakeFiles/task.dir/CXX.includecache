@@ -6,17 +6,35 @@
 
 #IncludeRegexTransform: 
 
-/home/dikson/Documents/study/CompArchitecture/Task1/circle.h
+/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/circle.cpp
+circle.h
+/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/circle.h
+
+/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/circle.h
 fstream
 -
 rnd.h
-/home/dikson/Documents/study/CompArchitecture/Task1/rnd.h
-
-/home/dikson/Documents/study/CompArchitecture/Task1/container.h
+/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/rnd.h
 shape.h
-/home/dikson/Documents/study/CompArchitecture/Task1/shape.h
+/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/shape.h
 
-/home/dikson/Documents/study/CompArchitecture/Task1/main.cpp
+/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/container.cpp
+container.h
+/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/container.h
+
+/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/container.h
+rectangle.h
+/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/rectangle.h
+circle.h
+/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/circle.h
+triangle.h
+/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/triangle.h
+shape.h
+/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/shape.h
+
+/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/enums.h
+
+/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/main.cpp
 iostream
 -
 fstream
@@ -28,31 +46,47 @@ ctime
 cstring
 -
 container.h
-/home/dikson/Documents/study/CompArchitecture/Task1/container.h
+/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/container.h
 
-/home/dikson/Documents/study/CompArchitecture/Task1/rectangle.h
+/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/rectangle.cpp
+rectangle.h
+/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/rectangle.h
+
+/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/rectangle.h
 fstream
 -
 rnd.h
-/home/dikson/Documents/study/CompArchitecture/Task1/rnd.h
+/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/rnd.h
+shape.h
+/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/shape.h
 
-/home/dikson/Documents/study/CompArchitecture/Task1/rnd.h
+/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/rnd.h
 cstdlib
 -
 
-/home/dikson/Documents/study/CompArchitecture/Task1/shape.h
-rectangle.h
-/home/dikson/Documents/study/CompArchitecture/Task1/rectangle.h
-triangle.h
-/home/dikson/Documents/study/CompArchitecture/Task1/triangle.h
-circle.h
-/home/dikson/Documents/study/CompArchitecture/Task1/circle.h
+/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/shape.cpp
+shape.h
+/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/shape.h
 
-/home/dikson/Documents/study/CompArchitecture/Task1/triangle.h
+/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/shape.h
 fstream
 -
 iostream
 -
+enums.h
+/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/enums.h
+
+/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/triangle.cpp
+triangle.h
+/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/triangle.h
+
+/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/triangle.h
+fstream
+-
+cmath
+-
 rnd.h
-/home/dikson/Documents/study/CompArchitecture/Task1/rnd.h
+/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/rnd.h
+shape.h
+/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/shape.h
 

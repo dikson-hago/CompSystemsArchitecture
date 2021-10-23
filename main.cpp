@@ -12,23 +12,20 @@
 #include "container.h"
 
 void ErrorInputMessage() {
-    cout << "Incorrcet input\n";
+    std::cout << "Incorrcet input\n";
 }
 
-void OutputInFileAndClearContainer(container &c, char* fileName) {
+void OutputInFileAndClearContainer(Container *c, char* fileName) {
     ofstream ofst1(fileName);
     ofst1 << "Filled container:\n";
-    SortContainer(c);
-    Output(c, ofst1);
-    Clear(c);
+    c->SortContainer();
+    c->Output(ofst1);
 }
 
-int InputFromFileAndValidateInputData(container &c,
-char* command, char* fileName) {
+int InputFromFileAndValidateInputData(Container *c, char* command, char* fileName) {
     if(!strcmp(command, "-f")) {
         ifstream ifst(fileName);
-        Input(c, ifst);
-        return 0;
+        c->Input(ifst);
     }
     else if(!strcmp(command, "-n")) {
         auto size = atoi(fileName);
@@ -39,13 +36,12 @@ char* command, char* fileName) {
             return -1;
         }
         srand(static_cast<unsigned int>(time(0)));
-        InputRandom(c, size);
-        return 0;
+        c->InputRandom(size);
     }
     else {
         ErrorInputMessage();
-        return 0;
     }
+    return 0;
 }
 
 int main(int argc, char* argv[]) {
@@ -56,21 +52,21 @@ int main(int argc, char* argv[]) {
     }
 
     cout << "Start program"<< endl;
-    container c;
-    Init(c);
+    Container* new_container = new Container();
+    
 
     cout << "command : " << argv[1] << "\n";
 
     int inputStatus = 
-    InputFromFileAndValidateInputData(c, argv[1], argv[2]);
-
+    InputFromFileAndValidateInputData(new_container, argv[1], argv[2]);
     if(inputStatus == 0) {
-        OutputInFileAndClearContainer(c, argv[3]);
+        OutputInFileAndClearContainer(new_container, argv[3]);
     }
 
     cout << "Stop program"<< endl;
     clock_t end = clock();
     double time_spent = (double)(end - begin) / CLOCKS_PER_SEC;
     cout << "Time spent: " << time_spent << '\n';
+    delete new_container;
     return 0;
 }

@@ -1,50 +1,28 @@
 #include "shape.h"
 
-// input data for shape
-bool Input(shape& s, ifstream &ifst) {
-    int key, color_key;
-    ifst >> key >> color_key;
-    switch(key) {
-        case 1:
-            s.shape_key = shape::RECTANGLE;
-            Input(s.r, ifst);
-            return SetColor(s, color_key);
-        case 2:
-            s.shape_key = shape::TRIANGLE;
-            Input(s.t, ifst);
-            return SetColor(s, color_key);
-        case 3:
-            s.shape_key = shape::CIRCLE;
-            Input(s.c, ifst);
-            return SetColor(s, color_key);
-        default:
-            return false;
-    }
-}
-
 // set color of shape
-bool SetColor(shape &s, int &color_key) {
+bool Shape::SetColor(int &color_key) {
     switch(color_key) {
         case 1:
-            s.shape_color = shape::RED;
+            shape_color_ = ColorName::RED;
             return true;
         case 2:
-            s.shape_color = shape::ORANGE;
+            shape_color_ = ColorName::ORANGE;
             return true;
         case 3:
-            s.shape_color = shape::YELLOW;
+            shape_color_ = ColorName::YELLOW;
             return true;
         case 4:
-            s.shape_color = shape::GREEN;
+            shape_color_ = ColorName::GREEN;
             return true;
         case 5:
-            s.shape_color = shape::BLUE;
+            shape_color_ = ColorName::BLUE;
             return true;
         case 6:
-            s.shape_color = shape::INDIGO;
+            shape_color_ = ColorName::INDIGO;
             return true;
         case 7:
-            s.shape_color = shape::VIOLET;
+            shape_color_ = ColorName::VIOLET;
             return true;
         default:
             return false;
@@ -52,89 +30,32 @@ bool SetColor(shape &s, int &color_key) {
 
  }
 
-// get random data for shape
-bool InputRandom(shape& s) {
-    auto shape_key = rand() % 3 + 1;
-    auto color_key = rand() % 7 + 1;
-    SetColor(s, color_key);
-    switch(shape_key) {
-        case 1:
-            s.shape_key = shape::RECTANGLE;
-            InputRandom(s.r);
-            return true;
-        case 2:
-            s.shape_key = shape::TRIANGLE;
-            InputRandom(s.t);
-            return true;
-        case 3:
-            s.shape_key = shape::CIRCLE;
-            InputRandom(s.c);
-            return true;
-        default:
-            return false;
-    }
-}
-
-// output data of shape
-void Output(shape &s, ofstream &ofst) {
-    switch(s.shape_key) {
-        case shape::RECTANGLE:
-            Output(s.r, ofst);
-            break;
-        case shape::TRIANGLE:
-            Output(s.t, ofst);
-            break;
-        case shape::CIRCLE:
-            Output(s.c, ofst);
-            break;
-        default:
-            ofst << "Incorrect figure!" << endl;
-    }
-}
-
 // output color of shape
-void OutColor(shape& s, ofstream &ofst) {
-    switch (s.shape_color)
+void Shape::OutColor(ofstream &ofst) {
+    switch (shape_color_)
     {
-    case shape::RED:
+    case ColorName::RED:
         ofst << "RED";
         return;
-    case shape::ORANGE:
+    case ColorName::ORANGE:
         ofst << "ORANGE";
         return;
-    case shape::YELLOW:
+    case ColorName::YELLOW:
         ofst << "YELLOW";
         return;
-    case shape::GREEN:
+    case ColorName::GREEN:
         ofst << "GREEN";
         return;
-    case shape::BLUE:
+    case ColorName::BLUE:
         ofst << "BLUE";
         return;
-    case shape::INDIGO:
+    case ColorName::INDIGO:
         ofst << "INDIGO";
         return;
-    case shape::VIOLET:
+    case ColorName::VIOLET:
         ofst << "VIOLET";
         return;
     default:
         return;
-    }
-}
-
-// get perimeter of shape
-double Perimeter(shape &s) {
-    switch(s.shape_key) {
-        case shape::RECTANGLE:
-            return Perimeter(s.r);
-            break;
-        case shape::TRIANGLE:
-            return Perimeter(s.t);
-            break;
-        case shape::CIRCLE:
-            return Perimeter(s.c);
-            break;
-        default:
-            return 0.0;
     }
 }

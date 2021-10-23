@@ -1,30 +1,40 @@
 #ifndef __container__
 #define __container__
 
+#include "rectangle.h"
+#include "circle.h"
+#include "triangle.h"
 #include "shape.h"
 
-struct container {
-    enum {max_len = 10000};  // max length
-    int len; // current length
-    shape cont[max_len];
+
+class Container {
+private:
+    const static int max_len = 10000;  // max length
+    int container_length_; // current length
+    Shape* cont_[max_len];
+
+    bool SetColorAndType(int key, int color_key);
+
+public:
+    // constructor
+    Container();
+
+    // destructor
+    ~Container();
+
+    // clear container
+    void Clear();
+
+    // input data for container
+    void Input(ifstream &ifst);
+
+    // get random data for container
+    void InputRandom(int size);
+
+    // output data of container
+    void Output(ofstream &ofst);
+
+    // sort container's elements by their perimeter
+    void SortContainer();
 };
-
-// initialize new container
-void Init(container &c);
-
-// clear container
-void Clear(container &c);
-
-// input data for container
-void Input(container &c, ifstream &ifst);
-
-// get random data for container
-void InputRandom(container &c, int size);
-
-// output data of container
-void Output(container &c, ofstream &ofst);
-
-// sort container's elements by their perimeter
-void SortContainer(container &c);
-
 #endif

@@ -9,49 +9,41 @@
         double - 8 байт
         bool - 1 байт
 
-    Общее число заголовочных файлов (.h файлов) - 6
+    Общее число заголовочных файлов (.h файлов) - 7
     Общее число модулей реализации (.cpp файлов) - 7
 
-    Описание структур:
-    1) container (Всего 400008 байт)
-        enum {max_len = 10000} - 4 байта[0]
-        int len - 4 байтах[4]
-        shape cont[max_len] - 400000 байт[8]
+    Описание классов:
+    1) Сontainer (Всего 400008 байт)
+        const static int max_len = 10000 - 4 байта[0]
+        int container_length_ - 4 байта[0]
+        Shape* cont_[max_len] -  400000 байт[8]
 
-    2) shape (Всего 40 байт)
-        enum key {RECTANGLE, TRIANGLE, CIRCLE} - 4 байта[0]
+    2) Shape (Всего 8 байт)
+        ShapeName shape_name_ - 4 байтах[0]
+        ColorName shape_color_ - 4 байта[4]
 
-        enum color {RED, ORANGE, YELLOW, GREEN, BLUE, 
-        INDIGO, VIOLET} - 4 байта[4]
-
-        key shape_key - 4 байта[8]
-
-        color shape_color - 4 байта[12]
-
-        union { - максимум 24 байта[16]
-            rectangle r - 17 байт
-            triangle t - 24 байта
-            circle c - 16 байт
-        };
-
-    3) rectangle (Всего 17 байт)
-        int highLeftX - 4 байта[0]
-        int highLeftY - 4 байта[4]
-        int lowRightX - 4 байта[8]
-        int lowRightY - 4 байта[12]
+    3) Rectangle (Всего 17 байт)
+        int high_left_x_ - 4 байта[0]
+        int high_left_y_ - 4 байта[4]
+        int low_left_x_ - 4 байта[8]
+        int low_right_y_ - 4 байта[12]
         bool isValidate - 1 байт[16]
 
-    4) triangle (Всего 24 байт)
-        int first_x - 4 байта[0]
-        int first_y - 4 байта[4]
-        int second_x - 4 байта[8]
-        int second_y - 4 байта[12]
-        int third_x - 4 байта[16]
-        int third_y - 4 байта[20]
+    4) Triangle (Всего 24 байт)
+        int first_x_ - 4 байта[0]
+        int first_y_ - 4 байта[4]
+        int second_x_ - 4 байта[8]
+        int second_y_ - 4 байта[12]
+        int third_x_ - 4 байта[16]
+        int third_y_ - 4 байта[20]
 
-    5) circle (Всего 16 байт)
-        int center_x - 4 байта[0]
-        int center_y - 4 байта[4]
-        double radius - 8 байт[8]
+    5) Circle (Всего 16 байт)
+        int center_x_ - 4 байта[0]
+        int center_y_ - 4 байта[4]
+        double radius_ - 8 байт[8]
+    Enums:
+        enum ShapeName {RECTANGLE, TRIANGLE, CIRCLE} - 4 байта[0]
 
+        enum ColorName {RED, ORANGE, YELLOW, GREEN, BLUE, 
+        INDIGO, VIOLET} - 4 байта[4]
 

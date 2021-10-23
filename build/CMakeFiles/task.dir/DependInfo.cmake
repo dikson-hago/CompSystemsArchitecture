@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/dikson/Documents/study/CompArchitecture/Task1/circle.cpp" "/home/dikson/Documents/study/CompArchitecture/Task1/build/CMakeFiles/task.dir/circle.cpp.o"
-  "/home/dikson/Documents/study/CompArchitecture/Task1/container.cpp" "/home/dikson/Documents/study/CompArchitecture/Task1/build/CMakeFiles/task.dir/container.cpp.o"
-  "/home/dikson/Documents/study/CompArchitecture/Task1/main.cpp" "/home/dikson/Documents/study/CompArchitecture/Task1/build/CMakeFiles/task.dir/main.cpp.o"
-  "/home/dikson/Documents/study/CompArchitecture/Task1/rectangle.cpp" "/home/dikson/Documents/study/CompArchitecture/Task1/build/CMakeFiles/task.dir/rectangle.cpp.o"
-  "/home/dikson/Documents/study/CompArchitecture/Task1/shape.cpp" "/home/dikson/Documents/study/CompArchitecture/Task1/build/CMakeFiles/task.dir/shape.cpp.o"
-  "/home/dikson/Documents/study/CompArchitecture/Task1/triangle.cpp" "/home/dikson/Documents/study/CompArchitecture/Task1/build/CMakeFiles/task.dir/triangle.cpp.o"
+  "/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/circle.cpp" "/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/build/CMakeFiles/task.dir/circle.cpp.o"
+  "/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/container.cpp" "/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/build/CMakeFiles/task.dir/container.cpp.o"
+  "/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/main.cpp" "/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/build/CMakeFiles/task.dir/main.cpp.o"
+  "/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/rectangle.cpp" "/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/build/CMakeFiles/task.dir/rectangle.cpp.o"
+  "/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/shape.cpp" "/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/build/CMakeFiles/task.dir/shape.cpp.o"
+  "/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/triangle.cpp" "/home/dikson/Documents/study/CompArchitecture/CompSystemsArchitecture/build/CMakeFiles/task.dir/triangle.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

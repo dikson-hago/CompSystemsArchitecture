@@ -2,29 +2,34 @@
 #define __rectangle__
 
 #include <fstream>
+
 #include "rnd.h"
+#include "shape.h"
 
-using namespace std;
+class Rectangle : public Shape {
+private:
+    int high_left_x_, high_left_y_;
+    int low_right_x_, low_right_y_;
+    bool is_valid_;
 
-struct rectangle {
-    int highLeftX, highLeftY;
-    int lowRightX, lowRightY;
-    bool isValid;
+    // check input data
+    bool ValidateRectangle();
+
+public:
+    Rectangle();
+
+    ~Rectangle();
+
+    // input data for rectangle
+    void Input(ifstream &ifst) override;
+
+    // get random data for rectangle
+    void InputRandom() override;
+
+    // output data of rectangle
+    void Output(ofstream &ofst) override;
+
+    // get perimeter of rectangle
+    double Perimeter();
 };
-
-// input data for rectangle
-void Input(rectangle &r, ifstream &ifst);
-
-// check input data
-bool ValidateRectangle(rectangle &r);
-
-// get random data for rectangle
-void InputRandom(rectangle &r);
-
-// output data of rectangle
-void Output(rectangle &r, ofstream &ofst);
-
-// get perimeter of rectangle
-double Perimeter(rectangle &r);
-
 #endif

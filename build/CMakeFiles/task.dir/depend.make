@@ -3,11 +3,14 @@
 
 CMakeFiles/task.dir/circle.cpp.o: ../circle.cpp
 CMakeFiles/task.dir/circle.cpp.o: ../circle.h
+CMakeFiles/task.dir/circle.cpp.o: ../enums.h
 CMakeFiles/task.dir/circle.cpp.o: ../rnd.h
+CMakeFiles/task.dir/circle.cpp.o: ../shape.h
 
 CMakeFiles/task.dir/container.cpp.o: ../circle.h
 CMakeFiles/task.dir/container.cpp.o: ../container.cpp
 CMakeFiles/task.dir/container.cpp.o: ../container.h
+CMakeFiles/task.dir/container.cpp.o: ../enums.h
 CMakeFiles/task.dir/container.cpp.o: ../rectangle.h
 CMakeFiles/task.dir/container.cpp.o: ../rnd.h
 CMakeFiles/task.dir/container.cpp.o: ../shape.h
@@ -15,24 +18,26 @@ CMakeFiles/task.dir/container.cpp.o: ../triangle.h
 
 CMakeFiles/task.dir/main.cpp.o: ../circle.h
 CMakeFiles/task.dir/main.cpp.o: ../container.h
+CMakeFiles/task.dir/main.cpp.o: ../enums.h
 CMakeFiles/task.dir/main.cpp.o: ../main.cpp
 CMakeFiles/task.dir/main.cpp.o: ../rectangle.h
 CMakeFiles/task.dir/main.cpp.o: ../rnd.h
 CMakeFiles/task.dir/main.cpp.o: ../shape.h
 CMakeFiles/task.dir/main.cpp.o: ../triangle.h
 
+CMakeFiles/task.dir/rectangle.cpp.o: ../enums.h
 CMakeFiles/task.dir/rectangle.cpp.o: ../rectangle.cpp
 CMakeFiles/task.dir/rectangle.cpp.o: ../rectangle.h
 CMakeFiles/task.dir/rectangle.cpp.o: ../rnd.h
+CMakeFiles/task.dir/rectangle.cpp.o: ../shape.h
 
-CMakeFiles/task.dir/shape.cpp.o: ../circle.h
-CMakeFiles/task.dir/shape.cpp.o: ../rectangle.h
-CMakeFiles/task.dir/shape.cpp.o: ../rnd.h
+CMakeFiles/task.dir/shape.cpp.o: ../enums.h
 CMakeFiles/task.dir/shape.cpp.o: ../shape.cpp
 CMakeFiles/task.dir/shape.cpp.o: ../shape.h
-CMakeFiles/task.dir/shape.cpp.o: ../triangle.h
 
+CMakeFiles/task.dir/triangle.cpp.o: ../enums.h
 CMakeFiles/task.dir/triangle.cpp.o: ../rnd.h
+CMakeFiles/task.dir/triangle.cpp.o: ../shape.h
 CMakeFiles/task.dir/triangle.cpp.o: ../triangle.cpp
 CMakeFiles/task.dir/triangle.cpp.o: ../triangle.h
 
