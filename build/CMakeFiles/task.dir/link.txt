@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/task.dir/triangle.cpp.o CMakeFiles/task.dir/rectangle.cpp.o CMakeFiles/task.dir/shape.cpp.o CMakeFiles/task.dir/circle.cpp.o CMakeFiles/task.dir/container.cpp.o CMakeFiles/task.dir/main.cpp.o  -o ../bin/task 
