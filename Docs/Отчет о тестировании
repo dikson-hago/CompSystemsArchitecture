@@ -1,14 +1,14 @@
 Все нижеописанные тесты содержатся в папке tests
 Тest 1
-Time - 0.000335s
+python - 0,121s, cpp - 0.000335s
 Test 2
-Time - 1.73908s
+python - 4m7,521s, cpp - 1.73908s
 Test 3
-Time - 0.000298s
+python - 0,126s, cpp - 0.000298s
 Test 4
-Time - 0.000331s
+python - 0,125s, cpp - 0.000331s
 Test 5
-Time - 0.000322s
+python - 0,132s, cpp - 0.000322s
 
 Сравнение с предыдущей программой:
 1)  Время исполнения

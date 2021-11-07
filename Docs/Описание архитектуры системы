@@ -5,26 +5,20 @@
 
 Информация о программе:
     Используемые типы данных:
-        int - 4 байта
-        double - 8 байт
-        bool - 1 байт
+        int - 24 байта
+        float - 24 байта
+        bool - 24 байта
 
-    Общее число заголовочных файлов (.h файлов) - 7
-        circle.h - 549 bytes
-        rnd.h - 114 bytes
-        shape.h - 671 bytes
-        rectangle.h - 660 bytes
-        triangle.h - 801 bytes
-        enums.h - 115 bytes
-        container.h - 788 bytes
-
-    Общее число модулей реализации (.cpp файлов) - 6
-        circle.cpp - 816 bytes
-        rectangle.cpp - 1,5 kB (1 475 bytes)
-        triangle.cpp - 1,6 kB (1 614 bytes)
-        shape.cpp - 1,4 kB (1 432 bytes)
-        main.cpp - 1,9 kB (1 892 bytes)
-        container.cpp - 2,7 kB (2 711 bytes)
+    Общее число файлов - 9
+        circle.py - 943 bytes
+        container.py - 1307 bytes
+        dataclass.py - 1351 bytes
+        helper.py - 1537 bytes
+        main.py - 834 bytes
+        node.py - 96 bytes
+        rectangle.py - 1101 bytes
+        shape.py - 338 bytes
+        triangle.py - 1143 bytes
 
 
     Описание классов:

@@ -1,9 +1,8 @@
-Filled container:
-Container contains 5 elements.
-0: It is VIOLET Rectangle: highLeftX = 2, highLeftY = 5, lowRightX = 4, lowRightY = 2. Perimeter = 10
-1: It is ORANGE Rectangle: highLeftX = -2, highLeftY = 5, lowRightX = 4, lowRightY = 2. Perimeter = 18
-2: It is YELLOW Rectangle: highLeftX = 10, highLeftY = -10, lowRightX = 20, lowRightY = -20. Perimeter = 40
-3: It is GREEN Rectangle: highLeftX = 4, highLeftY = 5, lowRightX = 20, lowRightY = 10. Perimeter = 42
-Earlier Rectangle was not valid 
-4: It is ORANGE Rectangle: highLeftX = 100, highLeftY = 100, lowRightX = -100, lowRightY = -100. Perimeter = 800
-Earlier Rectangle was not valid 
+Container contains 4 elements 
+0: ORANGE Rectangle:  hightLeftX = -2 hightLeftY = 5 lowLeftX = -2 lowRightX = 2 Perimeter = 18
+This input was invalid
+1: YELLOW Rectangle:  hightLeftX = 10 hightLeftY = -10 lowLeftX = 10 lowRightX = -20 Perimeter = 40
+This input was invalid
+2: GREEN Rectangle:  hightLeftX = 4 hightLeftY = 5 lowLeftX = 4 lowRightX = 10 Perimeter = 42
+This input was invalid
+3: ORANGE Rectangle:  hightLeftX = 100 hightLeftY = 100 lowLeftX = 100 lowRightX = -100 Perimeter = 800

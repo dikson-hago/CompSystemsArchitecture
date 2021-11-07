@@ -1,8 +1,6 @@
-Filled container:
-Container contains 6 elements.
-0: It is RED Triangle: firstX = -4, firstY = 5, secondx = -4, secondY = 2, thirdX = -2, thirdY = 2. Perimeter = 8.60555
-1: It is YELLOW Triangle: firstX = 1, firstY = 2, secondx = 3, secondY = 4, thirdX = 5, thirdY = 6. Perimeter = 11.3137
-2: It is ORANGE Triangle: firstX = 1, firstY = 1, secondx = 1, secondY = 2, thirdX = 12, thirdY = 12. Perimeter = 31.4224
-3: It is RED Triangle: firstX = -10, firstY = 20, secondx = 30, secondY = 121, thirdX = 12, thirdY = 12. Perimeter = 242.518
-4: It is RED Triangle: firstX = 100, firstY = 200, secondx = -30, secondY = 200, thirdX = 20, thirdY = 11. Perimeter = 530.736
-5: It is RED Triangle: firstX = 12, firstY = 123, secondx = 781, secondY = 13, thirdX = 12, thirdY = 232. Perimeter = 1685.4
+Container contains 5 elements 
+0: RED Triangle:  first_x = -4 first_y = 5 second_x = -4 second_y = 2 third_x = -2 third_y = 2 Perimeter = 8.60555127546399
+1: YELLOW Triangle:  first_x = 1 first_y = 2 second_x = 3 second_y = 4 third_x = 5 third_y = 6 Perimeter = 11.313708498984761
+2: ORANGE Triangle:  first_x = 1 first_y = 1 second_x = 1 second_y = 2 third_x = 12 third_y = 12 Perimeter = 31.42241793342255
+3: RED Triangle:  first_x = 100 first_y = 200 second_x = -30 second_y = 200 third_x = 20 third_y = 11 Perimeter = 530.7359309248184
+4: RED Triangle:  first_x = 12 first_y = 123 second_x = 781 second_y = 13 third_x = 12 third_y = 232 Perimeter = 1685.4036603973877
