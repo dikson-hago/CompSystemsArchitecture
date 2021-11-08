@@ -21,38 +21,90 @@
         triangle.py - 1143 bytes
 
 
-    Описание классов:
-    1) Сontainer (Всего 400008 байт)
-        const static int max_len = 10000 - 4 байта[0] - in data segment of memory
-        int container_length_ - 4 байта[0] - in stack
-        Shape* cont_[max_len] -  400000 байт[8] - pointer in stack, elements in heap
+    Описаниe:
+    1) main.py
+        Table of names       Memory
+        my_container         Container()
+        amount               int
 
-    2) Shape (Всего 8 байт)
-        ShapeName shape_name_ - 4 байтах[0] - in stack
-        ColorName shape_color_ - 4 байта[4] - in stack
 
-    3) Rectangle (Всего 17 байт)
-        int high_left_x_ - 4 байта[0] - in stack
-        int high_left_y_ - 4 байта[4] - in stack
-        int low_left_x_ - 4 байта[8] - in stack
-        int low_right_y_ - 4 байта[12] - in stack
-        bool isValidate - 1 байт[16] - in stack
+    2) helper.py
+        Table of names                      Memory
+        def get_list_of_nums(..)
+            data[]                          list
+        def get_color(..)
+        def get_random_list(..)
+            data[]                          list
+        def get_len_between_nodes(..)
+        def get_input_amount_for_shape(..)
 
-    4) Triangle (Всего 24 байт)
-        int first_x_ - 4 байта[0] - in stack
-        int first_y_ - 4 байта[4] - in stack
-        int second_x_ - 4 байта[8] - in stack
-        int second_y_ - 4 байта[12] - in stack
-        int third_x_ - 4 байта[16] - in stack
-        int third_y_ - 4 байта[20] - in stack
+    3) shape.py
+        Table of names          Memory
+        def __init__(..)
+            nodes[]             list
+            color               string
+        def set(..)
+    
+    4) circle.py                Memory
+        Table of names
+        def __init__(..)
+            radius_             int
+            is_valid            bool
+        def input(..)
+        def output(..)
+            out_str             string
+        def get_perimeter(..)
+    
+    5) rectangle.py             Memory
+        Table of names          
+        def __init__(..)
+            is_valid            bool
+        def input(..)
+        def output(..)
+            out_str             string
+        def get_perimeter(..)
+    
+    6) triangle.py              Memory
+        Table of names
+        def __init__(..)
+        def input(..)
+        def output(..)
+            out_str             string
+        def get_perimeter(..)
+    
+    7) dataclass.py                                 Memory
+        Table of names
+        def __get_nodes_amount_by_shape_type(..)
+        def input_from_file(..)
+            file                                    fileType     
+            lines                                   list of str
+            shape_type                              int
+            shape_color                             int
+            counter                                 int
+        def input_random(..)
+            shape_color                             int
+            shape_type                              int
+            size                                    int
+            data                                    list
+        def output_sorted_data(..)                  
+            file                                    fileType
 
-    5) Circle (Всего 16 байт)
-        int center_x_ - 4 байта[0] - in stack
-        int center_y_ - 4 байта[4] - in stack
-        double radius_ - 8 байт[8] - in stack
-    Enums:
-        enum ShapeName {RECTANGLE, TRIANGLE, CIRCLE} - 4 байта[0] - in stack
+    8) container.py                 Memory
+        Table of names
+        def __init__(..)
+            figures[]               list
+        def set_shape(..)
+        def output(..)
+            size                    int
+            index                   int
+        def sort_container(..)
+            size                    int
+    
+    9) node.py
+       Table of names      Memory
+       X                   int
+       Y                   int
 
-        enum ColorName {RED, ORANGE, YELLOW, GREEN, BLUE, 
-        INDIGO, VIOLET} - 4 байта[4] - in stack
+    
+        
 
