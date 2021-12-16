@@ -1,4 +1,0 @@
-enum ShapeName {RECTANGLE, TRIANGLE, CIRCLE};
-
-enum ColorName {RED, ORANGE, YELLOW, GREEN, BLUE, 
-INDIGO, VIOLET};

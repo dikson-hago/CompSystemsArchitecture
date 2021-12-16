@@ -1,72 +1,47 @@
-// input example with file
-// ./bin/task01 -f tests/test01.txt tests/out.txt
-// input example with number of random
-// ./bin/task01 -n 100 tests/out.txt
+// // input example with file
+// // ./bin/task01 -f tests/test01.txt tests/out.txt
+// // input example with number of random
+// // ./bin/task01 -n 100 tests/out.txt
 
 #include <iostream>
 #include <fstream>
-#include <cstdlib> 
-#include <ctime>  
-#include <cstring>
-
-#include "container.h"
-
-void ErrorInputMessage() {
-    std::cout << "Incorrcet input\n";
-}
-
-void OutputInFileAndClearContainer(Container *c, char* fileName) {
-    ofstream ofst1(fileName);
-    ofst1 << "Filled container:\n";
-    c->SortContainer();
-    c->Output(ofst1);
-}
-
-int InputFromFileAndValidateInputData(Container *c, char* command, char* fileName) {
-    if(!strcmp(command, "-f")) {
-        ifstream ifst(fileName);
-        c->Input(ifst);
-    }
-    else if(!strcmp(command, "-n")) {
-        auto size = atoi(fileName);
-        if((size < 1) || (size > 10000)) { 
-            cout << "incorrect numer of figures = "
-                 << size
-                 << ". Set 0 < number <= 10000\n";
-            return -1;
-        }
-        srand(static_cast<unsigned int>(time(0)));
-        c->InputRandom(size);
-    }
-    else {
-        ErrorInputMessage();
-    }
-    return 0;
-}
+#include "Map/map.h"
+#include "Map/mapBuilder.h"
+#include "Pirates/silver.h"
+#include "errorMessages.h"
 
 int main(int argc, char* argv[]) {
-    clock_t begin = clock();
-    if(argc != 4) {
-        ErrorInputMessage();
-        return 1;
+    if(argc != 3) {
+        ErrorMessages::IncorrectAmountOfArgs();
+        return -1;
     }
-
-    cout << "Start program"<< endl;
-    Container* new_container = new Container();
+    int rows, columns, island_size, sectors_amount, groups_amount;
+    char* input_file_name;
+    char* output_file_name;
+    Coord start_location(0, 0);
+    Map* map = nullptr;
+    try {
+        input_file_name = argv[1];
+        output_file_name = argv[2];
+        std::ifstream ifst(input_file_name);
+        ifst >> rows >> columns >> island_size >> sectors_amount;
+        if(rows * columns < island_size || sectors_amount > rows * columns) {
+            throw -1;
+        }
+        groups_amount = sectors_amount;
+        Map* map = new Map(rows, columns, island_size, sectors_amount);
+        MapBuilder::createMap(map, start_location);
+        //map->showMap();
+        Silver::setData(start_location, groups_amount, map);
+        Silver::runGroups();
+        map->showResultMap(output_file_name);
+        delete map;
+        
+    } catch (...) {
+        ErrorMessages::IncorrectInputData();
+        return -1;
+    }
     
-
-    cout << "command : " << argv[1] << "\n";
-
-    int inputStatus = 
-    InputFromFileAndValidateInputData(new_container, argv[1], argv[2]);
-    if(inputStatus == 0) {
-        OutputInFileAndClearContainer(new_container, argv[3]);
-    }
-
-    cout << "Stop program"<< endl;
-    clock_t end = clock();
-    double time_spent = (double)(end - begin) / CLOCKS_PER_SEC;
-    cout << "Time spent: " << time_spent << '\n';
-    delete new_container;
     return 0;
 }
+

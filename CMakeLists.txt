@@ -12,20 +12,25 @@ set(BINARY_DIR "${CMAKE_BINARY_DIR}")
 # Source files list
 set(SOURCE_FILES
     # Headers
-    rnd.h
-    triangle.h
-    rectangle.h
-    circle.h
-    shape.h
-    container.h
+    Map/map.h
+    Map/mapBuilder.h
+    Models/constants.h
+    Models/coord.h
+    Models/randomiser.h
+    Models/steps.h
+    Pirates/group.h
+    Pirates/silver.h
+    errorMessages.h
 
     # Sources
-    triangle.cpp
-    rectangle.cpp
-    shape.cpp
-    circle.cpp
-    container.cpp
     main.cpp
+    Map/map.cpp
+    Map/mapBuilder.cpp
+    Models/coord.cpp
+    Models/randomiser.cpp
+    Models/steps.cpp
+    Pirates/group.cpp
+    Pirates/silver.cpp
 )
 
 add_executable(task ${SOURCE_FILES})

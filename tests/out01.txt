@@ -1,10 +1,6 @@
-Filled container:
-Container contains 7 elements.
-0: It is RED Triangle: firstX = -4, firstY = 5, secondx = -4, secondY = 2, thirdX = -2, thirdY = 2. Perimeter = 8.60555
-1: It is ORANGE Rectangle: highLeftX = -2, highLeftY = 5, lowRightX = 4, lowRightY = 2. Perimeter = 18
-2: It is ORANGE Triangle: firstX = 1, firstY = 1, secondx = 1, secondY = 2, thirdX = 12, thirdY = 12. Perimeter = 31.4224
-3: It is INDIGO Circle: center_x = 120, center_y = 1010, radius = 10. Perimeter = 62.8319
-4: It is ORANGE Circle: center_x = 10, center_y = 12, radius = 13. Perimeter = 81.6814
-5: It is YELLOW Rectangle: highLeftX = -100, highLeftY = 100, lowRightX = 100, lowRightY = 100. Perimeter = 400
-Earlier Rectangle was not valid 
-6: It is RED Triangle: firstX = 12, firstY = 123, secondx = 781, secondY = 13, thirdX = 12, thirdY = 232. Perimeter = 1685.4
+OK
+11122    11122
+11222    11222
+              
+              
+              
