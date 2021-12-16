@@ -1,0 +1,3 @@
+C:/Users/User/Documents/учеба/ABC/CompArch/CompSystemsArchitecture/build/CMakeFiles/task.dir
+C:/Users/User/Documents/учеба/ABC/CompArch/CompSystemsArchitecture/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/User/Documents/учеба/ABC/CompArch/CompSystemsArchitecture/build/CMakeFiles/ZERO_CHECK.dir

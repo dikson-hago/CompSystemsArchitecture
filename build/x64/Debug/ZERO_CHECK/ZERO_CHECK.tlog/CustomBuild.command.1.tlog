@@ -1,0 +1,10 @@
+^C:\USERS\USER\DOCUMENTS\УЧЕБА\ABC\COMPARCH\COMPSYSTEMSARCHITECTURE\BUILD\CMAKEFILES\DA1259F5F99324DC5C5BE86E83159A0D\GENERATE.STAMP.RULE
+setlocal
+C:\Users\User\cmake-3.22.0-rc2-windows-x86_64\bin\cmake.exe -SC:/Users/User/Documents/учеба/ABC/CompArch/CompSystemsArchitecture -BC:/Users/User/Documents/учеба/ABC/CompArch/CompSystemsArchitecture/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/User/Documents/учеба/ABC/CompArch/CompSystemsArchitecture/build/task1.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
